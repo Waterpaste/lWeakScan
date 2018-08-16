@@ -1,4 +1,5 @@
 #lMaekScan
+
 lMaekScan 简单的口令爆破攻击，针对端口自动化检测：
 >端口探测->中间件识别->口令爆破
 
@@ -17,7 +18,9 @@ lMaekScan 简单的口令爆破攻击，针对端口自动化检测：
 
 例子：
 > python lMaekScan.py -f host.txt -t 100 -p 80-10000
+
 >python lMaekScan.py -i 192.168.1.1/24
+
 >python IMaeKScan.py -i 192.168.1.1  -p 1-65535
 
 请勿用于非法用途，用于非法用途与本人无关
