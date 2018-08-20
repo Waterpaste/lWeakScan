@@ -17,10 +17,10 @@ lMaekScan 简单的口令爆破攻击，针对端口自动化检测：
 - -p 参数：指定端口(1-65535 or 80,8080,),未指定端口扫描 80-10000
 
 例子：
-> python lMaekScan.py -f host.txt -t 100 -p 80-10000
+> python lWeakScan.py -f host.txt -t 100 -p 80-10000
 
->python lMaekScan.py -i 192.168.1.1/24
+> python lWeakScan.py -i 192.168.1.1/24
 
->python IMaeKScan.py -i 192.168.1.1  -p 1-65535
+> python lWeakScan.py -i 192.168.1.1  -p 1-65535
 
 请勿用于非法用途，用于非法用途与本人无关
