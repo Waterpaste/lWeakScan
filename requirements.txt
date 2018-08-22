@@ -1,3 +1,4 @@
-python_nmap==0.6.1
 requests==2.19.1
+python_nmap==0.6.1
 nmap==0.0.1
+progressbar2==3.38.0
