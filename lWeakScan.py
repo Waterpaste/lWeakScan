@@ -84,7 +84,7 @@ def judgment(host,port,values):
                 fp = open("suc_host.txt",'a')
                 #print('%s:%s is %s  success %s ' % (host,port,x,con))
                 localtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-                fp.write(str(localtime)+' '+host+':'+str(port)+' success: '+con+'\n')
+                fp.write(str(localtime)+'---'+host+':'+str(port)+' success: '+con+'\n')
                 fp.close()
                 #lock.release()
 
